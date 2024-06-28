@@ -1,17 +1,24 @@
-import React from 'react';
+// es6 module loader - FE
+import React from 'react'; // const React = require('react')
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
-
+import App from './App' // const App = require('./App')
+// import RegisterComponent from './exercises/Register';
+// import Login from './exercises/Login';
+// import StateExample from './exercises/StateExample';
+// import Counter from './exercises/Counter';
+// import Show from './exercises/Show';
+// import TaskList from './exercises/TaskList';
+// import StringVowel from './exercises/StringVowel';
+// import EmployeesList from './exercises/Employees';
+// import Remove from './exercises/Remove';
+// import CountryList from './exercises/Countries';
+// import MainComponent from './exercises/MainComponent';
 const root = ReactDOM.createRoot(document.getElementById('root'));
+
 root.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>
+   <App />
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+
+// common js module loader - BE 
+// const express = require('express')
